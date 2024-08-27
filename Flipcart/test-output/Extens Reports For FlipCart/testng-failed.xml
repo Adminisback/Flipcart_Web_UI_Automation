@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Extens Reports For FlipCart]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Add To cart Product(failed)">
+    <classes>
+      <class name="E2E.Flipcart.TestCases">
+        <methods>
+          <include name="selectdDropdowns"/>
+        </methods>
+      </class> <!-- E2E.Flipcart.TestCases -->
+    </classes>
+  </test> <!-- Add To cart Product(failed) -->
+</suite> <!-- Failed suite [Extens Reports For FlipCart] -->

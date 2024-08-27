@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Extens Reports For FlipCart">
+	<!-- <listeners>
+		<listener class-name="Utils.Listeners"/>
+	</listeners>
+	 -->
+  <test name="Add To cart Product">
+    <classes>
+     <class name="E2E.Flipcart.TestCases">
+        <methods>
+         <include name="e2e"/>
+         <include name="selectdDropdowns"/>
+        </methods>
+       </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
